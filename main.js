@@ -2,17 +2,24 @@ var attempt=3;
 function validate(){
 var usuar=document.getElementById("usuar").value;
 var password=document.getElementById("password").value;
-if(usuar=="Admin" && password=="1234@"){
-    alert("Ingreso Exitoso");
+if(usuar=="Byron" && password=="User1"){
+    alert("Bienvenido Byron");
     window.location="/Home/index.html";
     return false;
-} if(usuar=="Cliente" && password=="123acceso"){
-    alert("Ingreso Exitoso");
+} if(usuar=="Enmanuel" && password=="User2"){
+    alert("Bienvenido Enmanuel");
     window.location="/Home/index.html";
     return false;
+} if(usuar=="Perla" && password=="user3"){
+    alert("Bienvenido Perla");
+    window.location="/Home/index.html";
+    return false
+} if(usuar=="Yara" && password=="user4"){
+    alert("Bienvenido Yara");
+    window.location="/Home/index.html";
+    return false
+}
 
-
-} 
 else{
 attempt--;
 }
