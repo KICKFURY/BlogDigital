@@ -1,0 +1,42 @@
+.showcase{
+    width: 100%;
+    height: 82vh;
+    position:relative;
+}
+
+.showcase video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-self: center;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 22, 22, 0.728);
+    font-size: 10vw;
+    color: white;
+    mix-blend-mode: multiply;
+    text-align: center;
+    padding-top: 150px;
+    
+    
+}
+
+.navbar {
+    background-color: black;
+}
+
+.footer{
+    background-color: black;
+    margin-bottom: end;
+}
+
+#bajada{
+    width: 100%;
+}

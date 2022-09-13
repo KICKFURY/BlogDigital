@@ -15,7 +15,11 @@ if(usuar=="Byron" && password=="User1"){
     window.location="/Home/index.html";
     return false
 } if(usuar=="Yara" && password=="user4"){
-    alert("Bienvenido Yara");
+    alert("Bienvenida Yara");
+    window.location="/Home/index.html";
+    return false
+} if(usuar=="Nesly" && password=="user5"){
+    alert("Bienvenida Nesly");
     window.location="/Home/index.html";
     return false
 }
