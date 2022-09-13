@@ -88,7 +88,7 @@ if (!APPLICATION_ID || !API_KEY) {
 
     if (await Backendless.UserService.isValidLogin()) {
       $('.login').hide();
-      $('.logined').show();
+      $('.logined').show();      
     } else {
       Backendless.setCurrentUserToken(null)
     }
@@ -158,7 +158,7 @@ if (!APPLICATION_ID || !API_KEY) {
 
       $('input').on('keydown', function () {
         $('input').removeClass('redBorder');
-      });
+      }); 
 
       if (!username) {
         createPopup('Identity cannot be empty!', 'error');
