@@ -10,16 +10,16 @@ if(usuar=="Byron" && password=="User1"){
     alert("Bienvenido Enmanuel");
     window.location="/Home/index.html";
     return false;
-} if(usuar=="Perla" && password=="user3"){
+} if(usuar=="Perla" && password=="User3"){
     alert("Bienvenido Perla");
     window.location="/Home/index.html";
     return false
-} if(usuar=="Yara" && password=="user4"){
+} if(usuar=="Yara" && password=="User4"){
     alert("Bienvenida Yara");
     window.location="/Home/index.html";
     return false
-} if(usuar=="Nesly" && password=="user5"){
-    alert("Bienvenida Nesly");
+} if(usuar=="Docente" && password=="User"){
+    alert("Bienvenido Docente!!");
     window.location="/Home/index.html";
     return false
 }
