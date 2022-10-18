@@ -1,28 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form Design One | Informatica</title>
-    <link rel="stylesheet" href="master.css">
-    <script src="main.js"></script>
-</head>
-<body>
-    <div class="login-box">
-        <img src="/img/Logo.jpeg" class="avatar" alt="Avatar Image">
-        <h1>Login Here</h1>
-        <form>
-        <!-- USERNAME INPUT -->
-        <label for="usuar">Username</label>
-        <input id="usuar" type="text" placeholder="Enter Username">
-        <!-- PASSWORD INPUT -->
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Enter Password">
-        <input type="button" value="Log In" id="submit" onclick="validate()">
-        <a href="/BlogDigital-Login/index.html">Lost your Password?</a><br>
-        <a href="/LoginTest/index.html">Don't have An account?</a>
-        </form>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/img/Logo.jpeg"
+    />
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Normalize 1ero-->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!--NavBar-->
+      <div class="ms-auto col-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="/assets/img/unan.webp"
+                width="200px"
+                alt="Logo blanco y negro Nico"
+              />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Este div tiene justify-content-end para alinear los links a la derecha. -->
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="/MiEquipo/index.html"
+                      >Mi Equipo</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white"
+                      href="/Automatizacion/carousel/index.html"
+                      >Automatizacion de Proceso Educativo</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white"
+                      href="/Contacto/contacto.html"
+                      >Contactanos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="ms-auto col-12">
+      <section class="showcase">
+        <video src="./assets/video/bgvideocity.mp4" autoplay loop muted></video>
+        <h1 class="title">/ Equipo 5 /</h1>
+      </section>
     </div>
-</body>
+    <!--Aqui Carrusel-->
+
+    <footer class="footer">
+      <div class="container-fluid text-center">
+        <img
+          src="/assets/img/unan.webp"
+          alt="logo negro Nico"
+          width="90px"
+        />
+        <p class="final text-white">
+          © 2022 Grupo 5 Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
