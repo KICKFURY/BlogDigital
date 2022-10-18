@@ -9,6 +9,26 @@ body {
   background-size: cover;
 }
 
+header{
+  display: flex;
+min-height: 70px;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.logo img{
+  height: 50%;
+margin-right: 10px;
+}
+nav a{
+font-weight: 600;
+padding-right: 10px;
+color: #fff;
+}
+nav a:hover{
+color: #2fb4cc;
+}
+
 .box {
   width: 500px;
   background: rgba(0, 0, 0, .4);
