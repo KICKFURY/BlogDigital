@@ -10,6 +10,31 @@ body {
     padding: 0 1.5em;
 }
 
+header{
+    display: flex;
+	min-height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.nav .nav-link {
+    background-color: #000;
+}
+
+.logo img{
+    height: 50%;
+	margin-right: 10px;
+}
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+    color: #fff;
+}
+nav a:hover{
+	color: #2fb4cc;
+}
+
 .container {
     max-width: 1170px;
     margin-left: auto;
