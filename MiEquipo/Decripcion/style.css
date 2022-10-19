@@ -9,6 +9,36 @@ body {
   background-size: cover;
 }
 
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: transparent;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
 header{
   display: flex;
 min-height: 70px;
@@ -39,7 +69,6 @@ color: #2fb4cc;
   color: white;
   font-family: 'Century Gothic', sans-serif;
   border-radius: 15px;
-  /* box-shadow: 7px 13px 37px black; */
 }
 
 .box-img {
