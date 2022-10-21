@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inteligencia Emocional</title>
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!-- ID Particles.js -->
+    <div id="particles-js"></div>
+    <header class="contenedor header">
+
+        <!-- Barra de navegación -->
+        <nav class="barra-navegacion">
+            <ul>
+                <li><a href="/MiEquipo/index.html">Mi Equipo</a></li>
+                <li><a href="/Automatizacion/carousel/pseudocodigo.html">Pseudocodigo</a></li>
+                <li>
+                    <a href="/index.html" class="logo">
+                        <!-- <i class="fas fa-biohazard"></i> -->
+                        <img src="/assets/img/unan.webp" alt="">
+                    </a>
+                </li>
+                <li><a href="/Automatizacion/carousel/index.html">Diagrama De Flujo</a></li>
+                <li><a href="/Contacto/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Título y descripción -->
+        <div class="contenido-descripcion">
+            <div>
+                <h1 class="titulo">
+                    <h3>Influencia De La Motivacion Para Un Aprendizaje Sastifactorio</h3>
+                    <span></span>
+                    <span></span>
+                </h1>
+                <article class="descripcion">
+                    <p>El aprendizaje es un elemento fundamental en cada individuo, es la actividad que nos permite transitar de un estado inicial (cuando somos embriones) a un estado cualitativamente mejorado. Durante toda nuestra vida, vamos desarrollando habilidades, destrezas, valores, dones, etc.; Que van desde la experiencia propia, hasta el conocimiento transferido por los distintos medios educativos.<p>
+                    <p>Muchas veces nuestro aprendizaje se puede ver bloqueado o simplemente no sentimos el entusiasmo  necesario para  estudiar, esto porque no nos gusta la materia, contenido, la asignatura, y en sí, solo nos obstaculiza. Por ende, presentamos este documento, con el fin de informar acerca de este tema tan importante para cada ser humano, lo cual llevará a la comprensión y por consecutivo, el progreso del mismo. <p>
+                    <h3>Mecanismos que regulan el aprendizaje</h3>
+                    <p>Desde que somos niños, nuestro aprendizaje se ve afectado con referencia al entorno, ya que nuestra capacidad sensomotora comienza a desarrollarse, aquí es cuando comenzamos a caminar, aprendemos a hablar(Solo escuchando la interacción externa ), a mantener el equilibrio, etc.<p>
+                    <p>Edgar Dale fue un pedagogo estadunidense del siglo pasado que se dedico a analizar las distintas herramientas educativas y trato de definir cuales permitían un mayor aprendizaje. De ahí se propuso la siguiente pirámide de la experiencia que luego se ha formulado como pirámide del aprendizaje.</p>
+                    <p>Según Dale, la base de la pirámide hace referencia a aquellas vivencias que permiten al ser humano un aprendizaje más efectivo y que se mantiene en su mente a largo plazo, este a medida que se desplaza va representando aquello donde el aprendizaje es más susceptible a ser olvidado o mejor dicho, memoria a corto plazo</p>
+                    <h3>Motivacion en el aprendizaje</h3>
+                    <p>Si bien cada estudiante se motiva por razones distintas, debemos tener en cuenta que el lograr que se motive debe ser una prioridad si queremos que  su aprendizaje se vea impactado positivamente.</p>
+                    <p>Como educadores, tenemos que suscitar el interés por nuestras enseñanzas a los pupilos, ya que si estos están motivados a aprender, sus calificaciones, rendimiento académico mejorara aún más que en un principio. Debemos hacer de nuestros propios objetivos el lograr que ellos aprendan, esto al estar pendientes de mantener el orden, estimularlos y hacerles sentir que si pueden lograr sacar buenas notas, que son capaces y no darles críticas constructivas.</p>
+                    <!-- <a href="/Contacto/contacto.html" class="btn-link">Conviertete en uno</a> -->
+                </article>
+            </div>
+        </div>
+    </header>
+
+    <script src="/particules-js/js/particles.js"></script>
+    <script src="/particules-js/js/app.js"></script>
+    <!-- <script src="/particules-js/js/lib/stats.js"></script> -->
+    <script>
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script> 
+
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+</body>
+</html>
