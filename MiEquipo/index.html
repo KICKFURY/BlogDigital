@@ -4,67 +4,101 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Mi Equipo</title>
-	<link rel="stylesheet" href="/MiEquipo/estilos.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body class="team-body">
     <header>
-        <a href="#" class="logo">
-            <img src="/assets/img/unan.webp" alt="">
-        </a>
-        <nav>
-            <a href="/index.html" class="nav-link">Home</a>
-            <a href="/Automatizacion/carousel/index.html" class="nav-link">Automatizacion de Proceso Educativo</a>
-            <a href="/Contacto/contacto.html" class="nav-link">Contactanos</a>
-        </nav>
-    </header>
-	<!--   Tarjetas-->
-<div class="title-cards">
-		<h2>Mi Equipo</h2>
-	</div>
-<div class="container-card">
+		<!--NavBar-->
+		<div class="ms-auto col-12">
+		  <nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="../index.html">
+				<img src="/assets/img/unan.webp"/>
+			  </a>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				  aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
 	
-<div class="card">
+				<!-- Este div tiene justify-content-end para alinear los links a la derecha. -->
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				  <ul class="navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link active text-white" aria-current="page" href="/MiEquipo/index.html">Team</a>
+					</li>
+					<li>
+					  <a class="nav-link text-white" href="#">Emotional intelligence</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-white" href="/Automatizacion/carousel/index.html">Educational process</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-white" href="/Contacto/contacto.html">Contact</a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+		</div>
+	  </header>
+	<!--   Tarjetas-->
+<div class="col-12">
+<div class="container-card contain justify-content-center align-items-center">
+	
+<div class="card col-3">
 	<figure>
 		<img src="/img/Byron.png">
 	</figure>
 	<div class="contenido-card">
-		<h3>Desarrollador</h3>
+		<h3>Developer</h3>
 		<p>
-		Un soñador que no cree en lo imposible!
+			A dreamer who doesn't believe in the impossible!
 		</p>
-		<a href="./Decripcion/byron.html">Leer Màs</a>
+		<a href="./Decripcion/byron.html">Read more</a>
 	</div>
 </div>
-<div class="card">
+<div class="card col-3">
 	<figure>
 		<img src="/img/emanuel.png">
 	</figure>
 	<div class="contenido-card">
-		<h3>Desarrollador</h3>
-		<p>Nosotros creamos y optimizamos tus perfiles en las Redes Sociales.</p>
-		<a href="./Decripcion/enmanuel2.html">Leer Màs</a>
+		<h3>Developer</h3>
+		<p>We create and optimize your profiles on Social Networks.</p>
+		<a href="./Decripcion/enmanuel2.html">Read more</a>
 	</div>
 </div>
-<div class="card">
+<div class="card col-3">
 	<figure>
 		<img src="/img/perla.png">
 	</figure>
 	<div class="contenido-card">
-		<h3>Desarrollador</h3>
-		<p>Soy exelente al internar cosas nuevas las cuales conlleva a mi propia felicidad.</p>
-		<a href="./Decripcion/perla.html">Leer Màs</a>
+		<h3>Developer</h3>
+		<p>I am excellent at internalizing new things for my own happiness.</p>
+		<a href="./Decripcion/perla.html">Read more</a>
 	</div>
 </div>
-<div class="card">
+<div class="card col-3">
 	<figure>
 		<img src="/img/yara.png">
 	</figure>
 	<div class="contenido-card">
-		<h3>Desarrollador y Diseño Grafico</h3>
-		<p>Creamos tu página web utilizando las últimas tecnologías disponibles.</p>
-		<a href="./Decripcion/yara.html">Leer Màs</a>
+		<h3>Graphic designer</h3>
+		<p>We create your website using the latest technologies available.</p>
+		<a href="./Decripcion/yara.html">Read more</a>
 	</div>
 </div>
+
+</div>
 <!--Fin Tarjetas-->
+<footer class="footer">
+    <div class="container-fluid text-center">
+      <p class="final text-white text-center">
+        © 2022 Team 5 all rights reserved.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
