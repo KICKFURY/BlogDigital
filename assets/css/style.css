@@ -9,6 +9,9 @@
     --red-color: #f00;
     --green-color: #0f0;
     --blue-color: #00f;
+
+    /* others */
+    --border-components: 0.5px solid rgba(255, 255, 255, 0.3);
 }
 
 .showcase{
@@ -42,11 +45,19 @@
 .navbar {
     background-color: var(--black-color);
     height: var(--height-navbar);
+    padding: 0px 70px 0px 70px;
+    border-bottom: var(--border-components);
+}
+
+.navbar img {
+    height: calc(var(--height-navbar) - 15px);
 }
 
 .footer{
     background-color: var(--black-color);
     height: var(--height-footer);
+    border-top: var(--border-components);
+    padding: 10px;
     margin-bottom: 0;
 }
 
