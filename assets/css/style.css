@@ -1,7 +1,20 @@
+:root {
+    /* sizes */
+    --height-navbar: 80px;
+    --height-footer: 50px;
+
+    /* colors */
+    --black-color: #000;
+    --white-color: #fff;
+    --red-color: #f00;
+    --green-color: #0f0;
+    --blue-color: #00f;
+}
+
 .showcase{
     width: 100%;
-    height: 82vh;
-    position:relative;
+    height: calc(100vh - var(--height-navbar) - var(--height-footer));
+    position: relative;
 }
 
 .showcase video {
@@ -20,21 +33,21 @@
     height: 100%;
     background-color: rgba(24, 22, 22, 0.728);
     font-size: 10vw;
-    color: white;
+    color: var(--white-color);
     mix-blend-mode: multiply;
     text-align: center;
     padding-top: 150px;
-    
-    
 }
 
 .navbar {
-    background-color: black;
+    background-color: var(--black-color);
+    height: var(--height-navbar);
 }
 
 .footer{
-    background-color: black;
-    margin-bottom: end;
+    background-color: var(--black-color);
+    height: var(--height-footer);
+    margin-bottom: 0;
 }
 
 #bajada{
