@@ -23,7 +23,7 @@
     --cyan-color: rgb(17, 191, 235);
 
     /* others */
-    --border-components: 0.5px solid rgba(255, 255, 255, 0.3);
+    --border-components: 0.5px solid rgba(17, 191, 235, 0.4);
     --shadow-cyan: 5px 5px 20px rgba(17, 191, 235, 0.4);
 }
 
