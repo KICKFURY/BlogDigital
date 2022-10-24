@@ -40,29 +40,6 @@ body {
 	padding: 15px 15px 15px 20px;
 }
 
-header{
-display: flex;
-min-height: 70px;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
-}
-
-.logo img{
-height: 50%;
-margin-right: 10px;
-}
-
-nav a{
-font-weight: 600;
-padding-right: 10px;
-color: #fff;
-}
-
-nav a:hover{
-color: #2fb4cc;
-}
-
 .titulo {
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
