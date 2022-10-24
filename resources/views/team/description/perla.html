@@ -9,32 +9,41 @@
 <link rel="stylesheet" href="./estilos.css">
 </head>
 <header>
-  <a href="#" class="logo">
-      <img src="/assets/img/unan.webp" alt="">
-  </a>
-  <nav>
-		<ul class="menu-horizontal">
-			<li><a href="/index.html" class="nav-link">Home</a></li>
-			<li>
-				<a href="/MiEquipo/index.html" class="nav-link">Mi Equipo</a>
-				<ul class="menu-vertical">
-					<li><a href="/MiEquipo/Decripcion/byron.html" class="nav-link">Byron Guzman</a></li>
-                    <li><a href="/MiEquipo/Decripcion/enmanuel2.html" class="nav-link">Enmanuel Artola</a></li>
-					<li><a href="/MiEquipo/Decripcion/perla.html" class="nav-link">Perla Escorcia</a></li>
-					<li><a href="/MiEquipo/Decripcion/yara.html" class="nav-link">Yara Tercero</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#" class="nav-link">Automatizacion de Proceso Educativo</a>
-				<ul class="menu-vertical">
-					<li><a href="/particules-js/index.html" class="nav-link">Descripcion</a></li>
-					<li><a href="/Automatizacion/carousel/pseudocodigo.html" class="nav-link">Pseudocodigo</a></li>
-          <li><a href="/Automatizacion/carousel/index.html" class="nav-link">Diagrama De Flujo</a></li>
-				</ul>
-			</li>
-			<li><a href="/Contacto/contacto.html" class="nav-link">Contactanos</a></li>
-		</ul>
-	</nav>
+  <!--NavBar-->
+  <div class="ms-auto col-12">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="../public/img/unan.webp" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Este div tiene justify-content-end para alinear los links a la derecha. -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="/MiEquipo/index.html">Team</a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#">Emotional intelligence</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/Automatizacion/carousel/index.html">Educational process</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/Contacto/contacto.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
 </header>
 <body>
 <section class="box">
