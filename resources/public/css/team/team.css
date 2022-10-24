@@ -35,7 +35,7 @@ figure {
 	background: rgba(255,255,255,0.0);
 }
 .card:hover{
-	box-shadow: 5px 5px 20px rgba(17, 191, 235, 0.4);
+	box-shadow: var(--shadow-cyan);
 	transform: translateY(-2%);
 }
 .card img{
