@@ -1,0 +1,75 @@
+@import "/resources/public/css/style.css";
+
+.team-body {
+    /* background: url('/resources/public/img/bg.jpeg') no-repeat; */
+    background: url('/resources/public/img/hacker.webp') no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img{
+    height: 50%;
+    margin-right: 10px;
+}
+
+.box {
+    width: 800px;
+    background: rgba(0, 0, 0, .4);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.box ul li {
+    display: inline-block;
+}
+.box ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    transition: all .5s ease-in-out;
+    display: block;
+}
+
+.box ul li a:hover {
+    color:#b9b9b9;
+    transform: scale(1.3);
+}
